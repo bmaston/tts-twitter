@@ -21,3 +21,11 @@
 
 en:
   hello: "Hello world"
+  activerecord:
+    errors:
+      models:
+        tweets:
+          attributes:
+            message:
+              too_long: " is only 140 characters long! Type less!"
+              too_short: " is too short! Type more!"
